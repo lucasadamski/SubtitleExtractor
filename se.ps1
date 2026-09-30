@@ -1,3 +1,29 @@
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
+$logo = @"
+                                                                                          
+   mmmm              mm                     ##               mmmm                         
+ m#""""#             ##          ##         ""       ##      ""##                         
+ ##m       ##    ##  ##m###m   #######    ####     #######     ##       m####m            
+  "####m   ##    ##  ##"  "##    ##         ##       ##        ##      ##mmmm##           
+      "##  ##    ##  ##    ##    ##         ##       ##        ##      ##""""""           
+ #mmmmm#"  ##mmm###  ###mm##"    ##mmm   mmm##mmm    ##mmm     ##mmm   "##mmmm#           
+  """""     """" ""  "" """       """"   """"""""     """"      """"     """""            
+                                                                                          
+                                                                                          
+                                                                                          
+ mmmmmmmm                                                                                 
+ ##""""""              ##                                      ##                         
+ ##        "##  ##"  #######    ##m####   m#####m   m#####m  #######    m####m    ##m#### 
+ #######     ####      ##       ##"       " mmm##  ##"    "    ##      ##"  "##   ##"     
+ ##          m##m      ##       ##       m##"""##  ##          ##      ##    ##   ##      
+ ##mmmmmm   m#""#m     ##mmm    ##       ##mmm###  "##mmmm#    ##mmm   "##mm##"   ##      
+ """"""""  """  """     """"    ""        """" ""    """""      """"     """"     ""      
+                                                                                          
+                                                                                                                                                                 
+"@;
+
+Write-Host $logo -ForegroundColor Green;
 
 function Parse-Lines($text) {
     $result = "";
